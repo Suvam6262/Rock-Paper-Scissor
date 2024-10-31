@@ -5,12 +5,8 @@ let scissorBtn = document.getElementById("btn-Scissor");
 let p1Score = document.getElementById("p1-score");
 let p2Score = document.getElementById("p2-score");
 
-rockBtn.addEventListener("click",()=>{   // Click count
-    scoreCount(); 
-    p1Score.innerText = count; 
-})
 
-let count  = 0;
+let count  = 0;                //Click Count
 const scoreCount = () =>{
     count++;
 };
