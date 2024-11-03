@@ -27,11 +27,6 @@ h1 {
     cursor: pointer;
 }
 
-.btn:hover {
-    padding: 5px 30px;
-    background-color: rgb(20, 157, 220);
-}
-
 .score-container {
     margin: 50px;
     font-family: monospace;
