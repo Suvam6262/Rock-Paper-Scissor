@@ -35,7 +35,7 @@ h1 {
 .score-container {
     margin: 50px;
     font-family: monospace;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .player {
@@ -51,8 +51,9 @@ h1 {
     cursor: pointer;
 }
 
-#msg {
+#msg,#player-info {
     color: darkslategray;
+    font-size: x-large;
 }
 
                             /* For Phone */
