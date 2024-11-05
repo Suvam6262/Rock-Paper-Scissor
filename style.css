@@ -6,7 +6,6 @@
 body {
     text-align: center;
     background-color: #5DA9E9;
-    font-family: cursive;
 }
 
 h1 {
@@ -29,7 +28,6 @@ h1 {
 
 .score-container {
     margin: 50px;
-    font-family: monospace;
     font-size: 30px;
 }
 
