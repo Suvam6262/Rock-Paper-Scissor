@@ -52,7 +52,7 @@ let playRound = (playerChoice) => {
 
 const compsTurn = () => {                                  //Computer's Turn
     let compOptions = ["Rock", "Paper", "Scissor"];
-    option = Math.floor(Math.random() * compOptions.length);
+    let option = Math.floor(Math.random() * compOptions.length);
     return compOptions[option];
 }
 
@@ -68,8 +68,8 @@ const resetGame = () => {
     roundsPlayed = 0;
     playersScore.innerText = 0;
     compsScore.innerText = 0;
-    playerInfo.innerHTML = " ";
-    winnerInfo.innerText = " ";
+    playerInfo.innerHTML = "";
+    winnerInfo.innerText = "";
 }
 resetBtn.addEventListener("click", () => {
     resetGame();
