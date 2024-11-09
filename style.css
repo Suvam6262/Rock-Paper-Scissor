@@ -15,6 +15,9 @@ h1 {
 
 .btn-container {
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .btn {
@@ -27,8 +30,10 @@ h1 {
 }
 
 .score-container {
-    margin: 50px;
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .player {
@@ -49,21 +54,10 @@ h1 {
     font-size: x-large;
 }
 
-                            /* For Phone */
-@media (min-width:452px) and (max-width:535px){
+                 
+@media (max-width:600px){
     .player {
         margin: 35px;
     }
 }
-                            /* For Phone */
-@media (min-width:535px) and (max-width:701px){
-    .player {
-        margin: 100px;
-    }
-}
-                             /* For Tablet */
-@media (min-width: 702px) and (max-width: 900px) {
-    .player {
-        margin: 30px;
-    }
-}
+                        

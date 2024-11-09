@@ -15,7 +15,7 @@ let compsClickCount = 0;
 let roundsPlayed = 0;
 
 let checkWinner = () => {            // Winning Logic
-    if (roundsPlayed == 3) {
+    if (roundsPlayed == 5) {
         if (playersClickCount > compsClickCount) {
             winnerInfo.innerText = "Congrats! You are the Winner";
         } else if (playersClickCount < compsClickCount) {
@@ -28,7 +28,7 @@ let checkWinner = () => {            // Winning Logic
 
 
 let playRound = (playerChoice) => {
-    if (roundsPlayed < 3) {
+    if (roundsPlayed < 5) {
         let compsChoice = compsTurn();
         playerInfo.innerHTML = `Player chose: ${playerChoice} and Computer chose: ${compsChoice}`;
 
