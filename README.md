@@ -1,6 +1,9 @@
 # Rock-Paper-Scissor
 A simple Rock-Paper-Scissors game built with HTML, CSS, and JavaScript. This project allows users to play the classic game against the computer, where the computer randomly selects Rock, Paper, or Scissors each round.
 
+# Live Demo
+[Play the Game](https://suvam6262.github.io/Rock-Paper-Scissors/)
+
 ## Features
 - Interactive UI for easy gameplay.
 - Randomized computer moves for each round.
